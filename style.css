@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #fdee14;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container {
+    position: relative;
+    width: 500px;
+    height: 250px;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px #fdd614;
+}
+.heading_container {
+    position: absolute;
+    top: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.heading {
+    font-family: sans-serif;
+    font-size: 30px;
+}
+.emoji_container {
+    position: absolute;
+    top: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    border-radius: 50%;
+}
+.fa-regular {
+    margin: 1px;
+    transform: translateX(-100px);
+    transition: 0.2s;
+}
+.red {
+    color: red;
+}
+.orange {
+    color: orange;
+}
+.lightblue {
+    color: lightblue;
+}
+.blue {
+    color: blue;
+}
+.green {
+    color: green;
+}
+.stars_container {
+    position: absolute;
+    bottom: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.fa-solid {
+    margin: 2px;
+    color: lightgray;
+    cursor: pointer;
+}
+.star_active {
+    color: #fdd614;
+}
